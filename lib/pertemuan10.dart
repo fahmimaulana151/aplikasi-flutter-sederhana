@@ -305,12 +305,12 @@ class _ExHBNBState extends State<ExHBNB> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: const [
           Text(
-            'Nama : Nur Lativah',
+            'Nama : Fahmi Maulana',
             style: TextStyle(fontSize: 16.0), // Ukuran font
           ),
           SizedBox(height: 8.0), // Spasi antar baris
           Text(
-            'NIM : 21.230.0083',
+            'NIM : 21.230.0115',
             style: TextStyle(fontSize: 16.0),
           ),
           SizedBox(height: 8.0),
@@ -332,10 +332,10 @@ class _ExHBNBState extends State<ExHBNB> {
             UserAccountsDrawerHeader(
               currentAccountPicture: CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage('images/latifah.jpeg'),
+                backgroundImage: AssetImage('lib/images/profil.jpeg'),
               ),
-              accountName: Text('21.230.0083'),
-              accountEmail: Text('Nur Lativah'),
+              accountName: Text('21.230.0115'),
+              accountEmail: Text('Fahmi Maulana'),
             ),
             ListTile(
               leading: Icon(Icons.home),
