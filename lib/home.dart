@@ -3,6 +3,8 @@ import 'pertemuan9.dart';
 import 'pertemuan6.dart';
 import 'pertemuan10.dart';
 import 'pertemuan11.dart';
+import 'pertemuan12.dart';
+import 'praktikum12.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -67,6 +69,30 @@ class Home extends StatelessWidget {
                       (route) => false);
                 },
                 child: const Text('Pertemuan 11')),
+          ),
+          Container(
+            alignment: Alignment.center,
+            child: ElevatedButton(
+                onPressed: () {
+                  Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const Pertemuan12()),
+                      (route) => false);
+                },
+                child: const Text('Pertemuan 12')),
+          ),
+          Container(
+            alignment: Alignment.center,
+            child: ElevatedButton(
+                onPressed: () {
+                  Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const Praktikum12()),
+                      (route) => false);
+                },
+                child: const Text('Praktikum 12')),
           ),
         ],
       ),
